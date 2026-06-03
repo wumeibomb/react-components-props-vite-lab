@@ -8,9 +8,9 @@ function ArticleList({posts}){
         {posts.map(() => (
             <Article
               key = {id}
-              name = {title}
-              date = {date}
-              preview = {preview}
+              name = {posts.title}
+              date = {posts.date}
+              preview = {posts.preview}
         />
         ))}
           </main>
