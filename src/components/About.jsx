@@ -1,6 +1,7 @@
 import blogData from "../data/blog"
+import React from "react";
 
-function About(image, about) {
+function About({image, about}) {
     return (
         <aside>
             if ({image} == "") {

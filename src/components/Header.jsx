@@ -1,4 +1,6 @@
-function Header(name){
+import React from "react";
+
+function Header({name}){
 
     return (
 <header>
@@ -6,3 +8,4 @@ function Header(name){
 </header>
     )
 }
+export default Header
