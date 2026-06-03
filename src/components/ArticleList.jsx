@@ -7,7 +7,7 @@ function ArticleList({posts}){
     <main>
         {posts.map(() => (
             <Article
-              key = {id}
+              key = {posts.id}
               name = {posts.title}
               date = {posts.date}
               preview = {posts.preview}

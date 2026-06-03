@@ -5,8 +5,8 @@ function Article({title, date, preview}) {
     <article>
         <h3>{title}</h3>
         <small>
-            {date}
-            if ({date} === "") {
+            {date} = {blogData.date}
+            if ({date} == "") {
               {date} == "January 1, 1970"
             }
         </small>
