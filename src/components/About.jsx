@@ -1,3 +1,5 @@
+import blogData from "../data/blog"
+
 function About(image, about) {
     return (
         <aside>
@@ -11,3 +13,4 @@ function About(image, about) {
     )
 
 }
+export default About

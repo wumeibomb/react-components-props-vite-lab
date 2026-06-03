@@ -1,5 +1,17 @@
+import blogData from "../data/blog"
+import Article from "./Article"
+
 function ArticleList(posts){
+    return (
     <main>
-        []
-    </main>
+        {posts.map((post) => (
+            <Article
+              key = {post.id}
+              name = {post.title}
+              date = {post.date}
+              preview = {post.preview}
+        />
+        ))}
+          </main>
+    )
 }
